@@ -1,5 +1,3 @@
-// https://github.com/mekaiser/assignment-js
-
         // A function to convert kilometer to meter
 
 function kilometerToMeter(kilometer){
@@ -20,9 +18,9 @@ const watch = 50;
 const phone = 100;
 const laptop = 500;
     
-function budgetCalculator(WatchPiece, phonePiece, laptopPiece){
-    if(WatchPiece >= 0 && phonePiece >= 0 && laptopPiece >= 0){
-        let watchTotalPrice = 50 * WatchPiece;
+function budgetCalculator(watchPiece, phonePiece, laptopPiece){
+    if(watchPiece >= 0 && phonePiece >= 0 && laptopPiece >= 0){
+        let watchTotalPrice = 50 * watchPiece;
         let phoneTotalPrice = 100 * phonePiece;
         let laptopTotalPrice = 500 * laptopPiece;
     
